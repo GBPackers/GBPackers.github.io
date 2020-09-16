@@ -1,0 +1,45 @@
+body {
+  padding-top: 10rem;
+}
+.starter-template {
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;   
+}
+.table th {
+  text-align: center;   
+}
+
+
+.smaller_txt {
+  font-size: 13px
+}
+
+.even_smaller_txt {
+  font-size: 11px
+}
+
+
+@media print {
+  .table-striped tbody tr:nth-child(odd) td {
+      background-color:rgba(0,0,0,.05) !important;
+       -webkit-print-color-adjust: exact;}
+
+  .table-striped tbody tr:nth-child(odd) th {
+      background-color:rgba(0,0,0,.05) !important;
+       -webkit-print-color-adjust: exact;}
+  
+  .pagebreak { 
+        page-break-after: always;
+      }
+
+}
+
+.table-stripedcol tbody td:nth-of-type(odd), .table-stripedcol thead th:nth-of-type(even){ 
+  background-color:rgba(0,0,0,.05) !important;}
+
+
+
